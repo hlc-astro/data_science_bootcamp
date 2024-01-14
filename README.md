@@ -69,6 +69,29 @@ full_payment_prc : percent of full payment paid by user
 
 # Project 4 Deep Learning group challenge
 
+Brain Tumor Detector
+
+Introduction
+
+A brain tumor is a collection, or mass, of abnormal cells in your brain. Brain tumors can be cancerous (malignant) or noncancerous (benign). When benign or malignant tumors grow, they can cause the pressure inside your skull to increase. This can cause brain damage, and it can be life-threatening. The idea of this problem is to try and build an AI-powered system to be able to not just detect brain tumor but also find out specific type of tumors by looking at Brain MRI Scans. This will be a multi-class classification problem to classify each brain MRI scan image into 1 out of 4 classes using deep learning models for CV.
+
+The dataset
+
+Final dataset contains 7022 images of human brain MRI images which are classified into 4 classes: glioma - meningioma - no tumor and pituitary. The size of the images in this dataset is different and you can resize them all to 128x128 to make the models run faster. Dataset is already divided into train and test folders for convenience. Build models on the train dataset and check performance on the test data using CNNs, Transfer Learning, Data Augmentation etc.
+
+../../_images/brain_tumor_images.png
+Key Objectives
+
+Train-Test Datasets are already prepared in the folders when you load them. Do split the train dataset into 80:20 (train-validation split – use seed=42). Resize images to 128x128 for quicker modeling
+Build a basic CNN model from scratch (2-3) layers which should serve as a baseline model and give you around close to 90-91% accuracy easily
+Try different approaches of data augmentation, more complex CNN architectures, pre-trained models, transfer learning along with NN training approaches like early stopping, dynamic learning rates etc. to see if you can push the model performance to 98-99% (remember in healthcare, model accuracy >= 98% is usually desired)
+Showcase model performance on test data using confusion matrix, classification reports
+Helper Notebook: Use this notebook to load the data quickly and get started (uses memory efficient version by loading data into tensorflow datasets) OR you could use this tutorial to use traditional ImageDataGenerators (though the first approach is preferred and more memory efficient).
+
+Data Augmentation examples: https://www.tensorflow.org/tutorials/images/transfer_learning#use_data_augmentation OR check out the hints in the helper notebook towards the end.
+
+Models: Feel free to build your own models from scratch and maybe experiment with pre-trained models e.g. VGG, ResNet etc.
+
 
 
 
