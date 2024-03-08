@@ -3,8 +3,8 @@ Projects completed over the course of an intensive 12-week data science bootcamp
 
 # Project 1 Twitter challenge 
 This was an exercise in webscraping data from twitter (now 'X') users, performing analysis and visualization on the data. 
-For the purposes of obtaining the data, we used an active account on the Twitter API. The code to scrape the data is available here, but the authentication creditinals are not shared. 
-Some basic time series trends and sentiment analysis were performed, and displayed in a streamlit app, which can be found in this [This repository](https://github.com/hlc-astro/twitter_streamlit_hlc). 
+For the purposes of obtaining the data, we used an active account on the Twitter API. The code to scrape the data is available here, but the authentication creditinals are not shared. The Project1 folder here contains the python programs that were used to scrape the web and generate a database. 
+Some basic time series trends and sentiment analysis were performed, and displayed in a streamlit app. The app and the data files can be found in [this repository: twitter_streamlit](https://github.com/hlc-astro/twitter_streamlit_hlc). 
 
 
 
