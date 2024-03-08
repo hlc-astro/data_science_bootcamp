@@ -1,12 +1,10 @@
-
+import tweepy
 '''
 author: Holly L. Capelo
 
 Program using the open source python package 'tweepy' to obtain twitter data using the API. This program will obtain the full tweet history of the specified user. Additionally statistics about each tweet and the location where the tweet occurred will be printed.
 
 '''
-
-import tweepy
 
 # Authenticate to Twitter 
 #Note that the AUTHENTICATION data is not shared and the credentials for an active account should be put in place. 
