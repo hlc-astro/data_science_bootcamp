@@ -13,6 +13,8 @@ Specifically, we were asked to:
 Use the Twitter API to access Twitter data. Find the most frequently used hashtags. Choose 5 famous American celebrities, analyze their twitter usage (e.g. number of tweets, retweets, when tweet during the day, etc.) and compare the results to Elon Musk’s Twitter account.
 
 
+![plot](./Project1/assets/challenge_animaition)
+
 
 # Project 2 Auto Machine Learning and Supervised Learning Challenge
 This was a challenge to find the best model for an anonamous dataset. 
