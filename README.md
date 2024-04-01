@@ -1,7 +1,7 @@
 # data_science_bootcamp
 Projects completed over the course of an intensive 12-week data science bootcamp at Constructor Academy, Zurich 2022. Descriptions here correspond to the programs in the corresponding project folders. 
 
-# Project 1 Twitter challenge 
+# Project 1: Twitter challenge 
 This was an exercise in webscraping data from twitter (now 'X') users, performing analysis and visualization on the data. 
 For the purposes of obtaining the data, we used an active account on the Twitter API. The code to scrape the data is available here, but the authentication creditinals are not shared. The Project1 folder here contains the python programs that were used to scrape the web and generate a database. 
 Some basic time series trends and sentiment analysis were performed, and displayed in a streamlit app. The app and the data files can be found in [this repository: twitter_streamlit](https://github.com/hlc-astro/twitter_streamlit_hlc). 
@@ -13,13 +13,18 @@ Specifically, we were asked to:
 Use the Twitter API to access Twitter data. Find the most frequently used hashtags. Choose 5 famous American celebrities, analyze their twitter usage (e.g. number of tweets, retweets, when tweet during the day, etc.) and compare the results to Elon Musk’s Twitter account.
 
 
+![plot](./Project1/assets/challenge_animaition)
 
-# Project 2 Auto Machine Learning and Supervised Learning Challenge
-This was a challenge to find the best model for an anonamous dataset. 
 
-Specifically, we were asked to:
+# Project 2: Auto Machine Learning and Supervised Learning Challenge
+This was a challenge to rapidly find the best predictive model for an anonymous dataset that was pre-split into test and train sets, and consited of over 120 features. We used the Auto-ML approach to optimize the various possible ML models, while being blind to the meaning of the features and target.  
 
-Supervised Learning Challenge
+The generic dataset consists of two CSV files ‘features’ and ‘target’. Each row in the ‘features’ belongs to a ‘measurement’ and each column represents a ‘feature’. For each row in the ‘features’ you have a corresponding class label in ‘target’. You can consider the row-numbers as keys. The predictions were saved to a file with the feature ID and prediction, and then ranked amongst the scores on Kaggle. 
+
+
+
+<!--
+Specifically, we were instructed:
 
 The dataset we will be using contains two CSV files ‘features’ and ‘target’.
 
@@ -41,6 +46,8 @@ The relevant metric in scikit-learn to increase is f1_macro. After you finish yo
 Submit your CSV file in ‘Submit Predictions’ section.
 
 You can check your score in ‘My Submissions’ section and choose the one to make it Final Score by checking the ‘Use for Final Score’ checkbox.
+
+-->
 
 # Project 3 group Machine Learning Challenge
 
