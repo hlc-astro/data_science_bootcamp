@@ -19,7 +19,7 @@ A challenge to find the best predictive model for an anonymous dataset with over
 
 ## Project 3: Group Machine Learning Challenge - Customer Segmentation
 Using a dataset of credit card transactions to improve marketing campaigns through customer segmentation. Features included customer activity over a 6-month period.
-[Presentation:](https://www.beautiful.ai/player/-NsroMDobHxUbAq3rzgR)
+[Presentation](https://www.beautiful.ai/player/-NsroMDobHxUbAq3rzgR)
 
 ## Project 4: Deep Learning Group Challenge - Brain Tumor Detector
 Building an AI-powered system to detect brain tumors and classify specific types using brain MRI scans. Key objectives:
