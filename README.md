@@ -2,6 +2,8 @@
 
 Projects completed during a 12-week data science bootcamp at Constructor Academy, Zurich 2022. Descriptions correspond to the programs in the respective project folders.
 
+An interview about this experience can be found at the [Constructor](https://www.youtube.com/watch?v=qbGWiGi1ZSA) youtube channel. 
+
 ## Project 1: Twitter Challenge
 An exercise in webscraping data from Twitter users, performing analysis, and visualization. Key tasks included:
 - Using the Twitter API to access data
